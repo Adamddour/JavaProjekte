@@ -46,7 +46,7 @@ public class AlgoVersuch1 {
             i++;
             k++;
         }
-
+        ////////
         System.out.println("Gemergter Teil: " + Arrays.toString(Arrays.copyOfRange(array, begin, end + 1)));
     }
 
