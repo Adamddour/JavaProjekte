@@ -23,7 +23,7 @@ public class AlgoVersuch1 {
 	
 	
     public static void merge(int[] array, int begin, int middle, int end) {
-        int[] tempArray = Arrays.copyOfRange(array, begin, end + 1);
+        int[] tempArray = Arrays.copyOfRange(array, begin, end + 1);//
         int i = begin;
         int j = middle + 1;
         int k = begin;
@@ -46,7 +46,7 @@ public class AlgoVersuch1 {
             i++;
             k++;
         }
-        ////////
+        
         System.out.println("Gemergter Teil: " + Arrays.toString(Arrays.copyOfRange(array, begin, end + 1)));
     }
 
