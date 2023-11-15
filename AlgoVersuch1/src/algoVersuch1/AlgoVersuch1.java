@@ -18,6 +18,7 @@ public class AlgoVersuch1 {
             sortiereMitMergeSort(array, begin, middle);
             sortiereMitMergeSort(array, middle + 1, end);
             merge(array, begin, middle, end);
+           
         }
     }
 	
@@ -27,6 +28,7 @@ public class AlgoVersuch1 {
         int i = begin;
         int j = middle + 1;
         int k = begin;
+        System.out.println("Aufruf von sortiereMitMergeSort mit begin= "+begin+" und end= "+end);
 
         System.out.println("Zu mergender Teil: " + Arrays.toString(tempArray));
 
